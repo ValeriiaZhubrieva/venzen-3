@@ -857,10 +857,6 @@ body {
   .contacts__new-price {
     font-size: 2rem;
   }}
-@media (min-width: 767.98) {
-  .contacts__text {
-    max-width: 15.9375rem;
-  }}
 @media (min-width: 47.99875em) {
   .features__img {
     display: none;
@@ -868,6 +864,9 @@ body {
   .reviews__items {
     grid-column: 2/-1;
     grid-row: 1/4;
+  }
+  .contacts__text {
+    max-width: 15.9375rem;
   }}
 @media (min-width: 61.99875em) {
   .features__item {
